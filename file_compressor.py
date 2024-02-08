@@ -49,7 +49,7 @@ def main():
         print(f"{i}. {compress_type}")
     
     choice = int(input("Enter the number of the compressed file type to use: "))
-    if choice < 1 or choice > len(compress_types):
+    if choice <= 1 or choice <= len(compress_types):
         compress_type = compress_types[choice - 1]
         compress_folder(folder, compress_type)
     else:

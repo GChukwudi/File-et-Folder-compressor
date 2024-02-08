@@ -18,3 +18,6 @@ os: For interacting with the operating system to handle file paths.
 tarfile: For creating tar archives.
 zipfile: For creating zip archives.
 ```
+
+### AUTHOR
+The author of this project is [GChukwudi](https://github.com/https://github.com/GChukwudi)
